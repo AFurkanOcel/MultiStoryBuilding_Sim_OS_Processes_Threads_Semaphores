@@ -38,6 +38,16 @@ This simulation provides a creative and educational approach to understanding co
 - POSIX-compliant operating system (Linux/macOS)
 - GCC or compatible C compiler
 
+---
+
+## 🎥 Video
+
+*Watch the project demo here:*  
+[https://www.google.com](https://www.google.com)
+
+- POSIX-compliant operating system (Linux/macOS)
+- GCC or compatible C compiler
+
 ### Compile:
 ```bash
 gcc -o building_simulator building_simulator.c -lpthread -lrt
