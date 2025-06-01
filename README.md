@@ -43,4 +43,4 @@ This simulation provides a creative and educational approach to understanding co
 ## 🎥 Video
 
 *Watch the project demo here:*  
-[https://www.google.com](https://www.google.com)
+[https://www.youtube.com/watch?v=dEPhvAmfPIM&t=2s](https://www.youtube.com/watch?v=dEPhvAmfPIM&t=2s)
