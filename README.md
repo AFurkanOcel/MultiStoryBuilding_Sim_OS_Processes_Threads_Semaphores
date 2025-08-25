@@ -2,6 +2,8 @@
 
 ## 📌 About the Project
 
+**Platform**: Linux
+
 This project simulates the **construction of a multi-story apartment building**, serving as a practical demonstration of key **Operating Systems** concepts: **processes**, **threads**, and **semaphores**.
 
 - Each **floor** is represented by a **separate process**.
