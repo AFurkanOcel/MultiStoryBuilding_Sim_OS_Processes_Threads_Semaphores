@@ -16,8 +16,8 @@ This simulation provides a creative and educational approach to understanding co
 
 ## 👨‍💻 Developers
 
-- Ahmet Furkan Öcel — `23360859729`  
-- Lütfü Bedel — `21360859030`
+- Ahmet Furkan Öcel
+- Lütfü Bedel
 
 ---
 
