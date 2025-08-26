@@ -42,9 +42,9 @@ This simulation provides a creative and educational approach to understanding co
 
 <img width="600" alt="selectfile" src=https://github.com/user-attachments/assets/69f0cd68-4075-4d96-bc8b-9755241fc13b/>
 
-.
-.
-.
+. <br>
+. <br>
+. <br>
 
 <img width="600" alt="selectfile" src=https://github.com/user-attachments/assets/ac77d95f-32e9-4a51-b198-224d920c9ff0/>
 
