@@ -205,22 +205,6 @@ gcc building_simulation.c -o building_simulation -pthread -lrt
 
 ## Sample Console Output
 
-```text
-Apartman insaati basliyor...
-
-[KAT 1] Insaat basladi.
-[DAIRE 11] Siva ve tesisat icin vinc bekleniyor...
-[DAIRE 11] Vinci kullaniyor...
-[DAIRE 12] Siva ve tesisat icin vinc bekleniyor...
-[DAIRE 11] Vinci kullanmayi bitirdi.
-[DAIRE 12] Vinci kullaniyor...
-[KAT 1] Tum daireler tamamlandi.
-
-...
-
-Apartman insaati basariyla tamamlandi.
-```
-
 <img width="1200" alt="sample console output" src="assets/screenshots/sample-output.png" />
 
 ---
@@ -261,5 +245,4 @@ easy to identify in the source code.
 
 ## License
 
-This project is licensed under the terms included in the repository's
-`LICENSE` file.
+This project is licensed under the terms included in the repository's `LICENSE` file.
