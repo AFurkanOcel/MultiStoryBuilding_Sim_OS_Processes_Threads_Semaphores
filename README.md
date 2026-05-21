@@ -29,7 +29,25 @@ The simulation represents:
 The purpose of the project is to show how processes, threads, and semaphores can
 work together in a simple real-world inspired scenario.
 
-<img width="1200" alt="system overview" src="assets/screenshots/system-overview.png" />
+```mermaid
+flowchart LR
+    main["Main Process"]
+    floor1["Floor Process 1"]
+    floor2["Floor Process 2"]
+    floorN["..."]
+    floor10["Floor Process 10"]
+    crane["Shared Crane<br/>POSIX Named Semaphore"]
+
+    main --> floor1
+    main --> floor2
+    main --> floorN
+    main --> floor10
+
+    floor1 --> crane
+    floor2 --> crane
+    floorN --> crane
+    floor10 --> crane
+```
 
 ---
 
@@ -74,9 +92,7 @@ MultiStoryBuilding_Sim_OS_Processes_Threads_Semaphores/
 |-- LICENSE
 `-- assets/
     `-- screenshots/
-        |-- process-thread-model.png
         |-- sample-output.png
-        `-- system-overview.png
 ```
 
 ---
@@ -117,7 +133,29 @@ Each floor process creates four apartment threads. The apartment threads run
 concurrently within their floor process, but crane usage is serialized through
 the semaphore.
 
-<img width="1200" alt="process and thread model" src="assets/screenshots/process-thread-model.png" />
+```mermaid
+flowchart TB
+    main["Main Process"]
+    floor["Floor Process"]
+    t1["Apartment Thread 1"]
+    t2["Apartment Thread 2"]
+    t3["Apartment Thread 3"]
+    t4["Apartment Thread 4"]
+    sem["/vinc Semaphore"]
+    crane["Shared Crane"]
+
+    main --> floor
+    floor --> t1
+    floor --> t2
+    floor --> t3
+    floor --> t4
+
+    t1 --> sem
+    t2 --> sem
+    t3 --> sem
+    t4 --> sem
+    sem --> crane
+```
 
 ---
 
