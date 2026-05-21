@@ -5,7 +5,6 @@
 #include <semaphore.h>
 #include <fcntl.h>
 #include <sys/wait.h>
-#include <string.h>
 
 #define KAT_SAYISI 10
 #define DAIRE_SAYISI 4
