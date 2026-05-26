@@ -92,7 +92,6 @@ MultiStoryBuilding_Sim_OS_Processes_Threads_Semaphores/
 |-- LICENSE
 `-- assets/
     `-- screenshots/
-        |-- sample-output.png
 ```
 
 ---
